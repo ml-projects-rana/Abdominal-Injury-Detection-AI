@@ -1,0 +1,11 @@
+train: E:\MS_AI_ML\Dissertation\Abdominal\Outputs\Validation\Segmentor_Model\modelling\bowel\datasets\data\train\images
+val: E:\MS_AI_ML\Dissertation\Abdominal\Outputs\Validation\Segmentor_Model\modelling\bowel\datasets\data\valid\images
+nc: 2  # number of classes
+names: ['bowel_healthy', 'bowel_injury']
+
+
+
+
+
+
+

@@ -1,0 +1,4 @@
+ train: E:\MS_AI_ML\Dissertation\Abdominal\Outputs\Validation\Segmentor_Model\modelling\liver\datasets\data\train\images
+ val: E:\MS_AI_ML\Dissertation\Abdominal\Outputs\Validation\Segmentor_Model\modelling\liver\datasets\data\valid\images
+ nc: 3  # number of classes
+ names: ['liver_healthy', 'liver_low', 'liver_high']

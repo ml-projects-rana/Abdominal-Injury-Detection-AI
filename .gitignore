@@ -1,0 +1,10 @@
+# Ignore directories
+/Inputs/
+/Outputs/Preprocessing/datasets
+/Outputs/Validation/
+/Outputs/Preprocessing/predict
+/Outputs/Preprocessing/test_images_png
+
+# Ignore files
+/Notebooks/yolov8n.pt
+.yolov8n.pt

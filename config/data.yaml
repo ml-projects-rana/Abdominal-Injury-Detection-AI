@@ -1,0 +1,6 @@
+train: E:\MS_AI_ML\Dissertation\Abdominal\Outputs\Preprocessing\datasets\data\train\images 
+val: E:\MS_AI_ML\Dissertation\Abdominal\Outputs\Preprocessing\datasets\data\valid\images
+
+nc: 11  # number of classes
+names: ['bowel_healthy', 'bowel_injury', 'liver_healthy', 'liver_low', 'liver_high', 
+        'spleen_healthy', 'spleen_low', 'spleen_high', 'kidney_healthy', 'kidney_low', 'kidney_high']

@@ -1,0 +1,99 @@
+bowel_seg:
+ source_img_dir: '../Outputs/Validation/Segmentor_Model/masks/bowel'
+ source_label_dir: '../Outputs/Validation/Segmentor_Model/annotation/bowel'
+ dataset_dir: '../Outputs/Validation/Segmentor_Model/modelling/bowel/datasets/data'
+ results_dir: '../Outputs/Validation/Segmentor_Model/Results/bowel'
+ yaml_file: "../config/segmentor_model/bowel_data.yaml"
+ model_name: yolov8n.pt
+ epoch: 50
+ image_size: 512
+ batch_size: 8
+
+
+kidney_seg:
+ source_img_dir: '../Outputs/Validation/Segmentor_Model/masks/kidney'
+ source_label_dir: '../Outputs/Validation/Segmentor_Model/annotation/kidney'
+ dataset_dir: '../Outputs/Validation/Segmentor_Model/modelling/kidney/datasets/data'
+ results_dir: '../Outputs/Validation/Segmentor_Model/Results/kidney'
+ yaml_file: "../config/segmentor_model/kidney_data.yaml"
+ model_name: yolov8n.pt
+ epoch: 50
+ image_size: 512
+ batch_size: 8
+
+liver_seg:
+ source_img_dir: '../Outputs/Validation/Segmentor_Model/masks/liver'
+ source_label_dir: '../Outputs/Validation/Segmentor_Model/annotation/liver'
+ dataset_dir: '../Outputs/Validation/Segmentor_Model/modelling/liver/datasets/data'
+ results_dir: '../Outputs/Validation/Segmentor_Model/Results/liver'
+ yaml_file: "../config/segmentor_model/liver_data.yaml"
+ model_name: yolov8n.pt
+ epoch: 50
+ image_size: 512
+ batch_size: 8
+
+
+spleen_seg:
+ source_img_dir: '../Outputs/Validation/Segmentor_Model/masks/spleen'
+ source_label_dir: '../Outputs/Validation/Segmentor_Model/annotation/spleen'
+ dataset_dir: '../Outputs/Validation/Segmentor_Model/modelling/spleen/datasets/data'
+ results_dir: '../Outputs/Validation/Segmentor_Model/Results/spleen'
+ yaml_file: "../config/segmentor_model/spleen_data.yaml"
+ model_name: yolov8n.pt
+ epoch: 50
+ image_size: 512
+ batch_size: 8
+
+
+ 
+
+#Yolo Model
+
+bowel_yolo:
+ source_img_dir: '../Outputs/Validation/Yolo_Model/masks/bowel'
+ source_label_dir: '../Outputs/Validation/Yolo_Model/annotations/bowel'
+ dataset_dir: '../Outputs/Validation/Yolo_Model/modelling/bowel/datasets/data'
+ results_dir: '../Outputs/Validation/Yolo_Model/Results/bowel'
+ yaml_file: "../config/segmentor_model/bowel_yolo.yaml"
+ model_name: yolov8n.pt
+ epoch: 50
+ image_size: 512
+ batch_size: 8
+
+
+kidney_yolo:
+ source_img_dir: '../Outputs/Validation/Yolo_Model/masks/kidney'
+ source_label_dir: '../Outputs/Validation/Yolo_Model/annotations/kidney'
+ dataset_dir: '../Outputs/Validation/Yolo_Model/modelling/kidney/datasets/data'
+ results_dir: '../Outputs/Validation/Yolo_Model/Results/kidney'
+ yaml_file: "../config/segmentor_model/kidney_yolo.yaml"
+ model_name: yolov8n.pt
+ epoch: 50
+ image_size: 512
+ batch_size: 8
+
+liver_yolo:
+ source_img_dir: '../Outputs/Validation/Yolo_Model/masks/liver'
+ source_label_dir: '../Outputs/Validation/Yolo_Model/annotations/liver'
+ dataset_dir: '../Outputs/Validation/Yolo_Model/modelling/liver/datasets/data'
+ results_dir: '../Outputs/Validation/Yolo_Model/Results/liver'
+ yaml_file: "../config/segmentor_model/liver_yolo.yaml"
+ model_name: yolov8n.pt
+ epoch: 50
+ image_size: 512
+ batch_size: 8
+
+
+spleen_yolo:
+ source_img_dir: '../Outputs/Validation/Yolo_Model/masks/spleen'
+ source_label_dir: '../Outputs/Validation/Yolo_Model/annotations/spleen'
+ dataset_dir: '../Outputs/Validation/Yolo_Model/modelling/spleen/datasets/data'
+ results_dir: '../Outputs/Validation/Yolo_Model/Results/spleen'
+ yaml_file: "../config/segmentor_model/spleen_yolo.yaml"
+ model_name: yolov8n.pt
+ epoch: 50
+ image_size: 512
+ batch_size: 8
+
+
+

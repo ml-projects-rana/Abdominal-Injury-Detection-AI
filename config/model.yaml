@@ -1,0 +1,13 @@
+yolo:
+ results: "Outputs/Preprocessing/Results"
+ yaml_file: "config/data.yaml"
+ model_name: yolov8n.pt
+ model_path: 'Outputs/Preprocessing/Results/run/detect/train/weights/best.pt'
+ output_directory: 'Outputs/Preprocessing/predict/'
+ output_csv_path: 'Outputs/Preprocessing/predict/results_per_image.csv'
+ conf: 0.3
+ iou: 0.4   
+ epoch: 100
+ image_size: 512
+ batch_size: 8
+ output_excel_path: 'Outputs/Preprocessing/predict/results_per_patient.csv'

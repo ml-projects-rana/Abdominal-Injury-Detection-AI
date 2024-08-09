@@ -1,0 +1,5 @@
+train: E:\MS_AI_ML\Dissertation\Abdominal\Outputs\Validation\Segmentor_Model\modelling\kidney\datasets\data\train\images
+val: E:\MS_AI_ML\Dissertation\Abdominal\Outputs\Validation\Segmentor_Model\modelling\kidney\datasets\data\valid\images
+nc: 3  # number of classes
+names: ['kidney_healthy', 'kidney_low', 'kidney_high']
+
