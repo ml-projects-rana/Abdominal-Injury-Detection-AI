@@ -4,3 +4,7 @@
 
 # Description:
 The objective of this project is to create an artificial intelligence (AI) system that can be used to detect abdominal injuries, localize organs, and classify the severity of injuries by analyzing CT scans. Manually generated annotations in the AI system will undergo a comprehensive validation process against the segmented ground truth data to verify consistency and accuracy of the AI system created.
+
+# Data Source:
+https://www.kaggle.com/competitions/rsna-2023-abdominal-trauma-detection/data
+
