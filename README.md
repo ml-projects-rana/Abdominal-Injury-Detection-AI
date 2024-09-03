@@ -13,11 +13,14 @@ https://www.kaggle.com/competitions/rsna-2023-abdominal-trauma-detection/data
 #### Using CMD on Windows:
 
 cd C:\path\to\your\directory
-
 git clone https://github.com/ml-projects-rana/Abdominal-Injury-Detection-AI.git
 
 ### 2. Navigate to the project directory
 cd Abdominal-Injury-Detection-AI
+
+### 3. Create the Environment 
+conda create -n myenv python=3.9
+conda activate myenv
 
 ### 3. Install the required dependencies
 pip install -r requirements.txt
