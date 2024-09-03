@@ -28,8 +28,9 @@ conda activate myenv
 ### 4. Install the required dependencies
 pip install -r requirements.txt
 
-# Configuration:
-## A. Injury Detection, Organ Localization, and Injury Severity Classification
+
+# A. Injury Detection, Organ Localization, and Injury Severity Classification
+## Configuration:
 
 ### 1. config.yaml
 Configuration to manage paths, directories, and settings related to the training and testing data processing workflows:
