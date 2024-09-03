@@ -9,5 +9,17 @@ The objective of this project is to create an artificial intelligence (AI) syste
 https://www.kaggle.com/competitions/rsna-2023-abdominal-trauma-detection/data
 
 # Installation:
+### 1. Clone the repository
+#### Using CMD on Windows:
+
+cd C:\path\to\your\directory
+
+git clone https://github.com/ml-projects-rana/Abdominal-Injury-Detection-AI.git
+
+cd Abdominal-Injury-Detection-AI
+
+pip install -r requirements.txt
+
+
 
 
