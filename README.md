@@ -59,26 +59,38 @@ Includes paths for saving results, loading the model and dataset configurations,
 ### B.1. Ground Truth Masks predicted using Total Segmentor Model 
 ### 1. bowel_data.yaml
 train: Path to the directory containing bowel training images.
+
 val: Path to the directory containing bowel validation images.
+
 nc: Number of classes in the dataset, set to 2.
+
 names: List of class names representing different conditions of the bowel, specifically 'bowel_healthy' and 'bowel_injury'.
 
 ### 2. kidney_data.yaml
 train: Path to the directory containing kidney training images.
+
 val: Path to the directory containing kidney validation images.
+
 nc: Number of classes in the dataset, set to 2.
+
 names: List of class names representing different conditions of the kidney, specifically 'kidney_healthy', 'kidney_low', 'kidney_high'.
 
 ### 3. liver_data.yaml
 train: Path to the directory containing liver training images.
+
 val: Path to the directory containing liver validation images.
+
 nc: Number of classes in the dataset, set to 2.
+
 names: List of class names representing different conditions of the liver, specifically 'liver_healthy', 'liver_low', 'liver_high'.
 
 ### 4. spleen_data.yaml
 train: Path to the directory containing spleen training images.
+
 val: Path to the directory containing spleen validation images.
+
 nc: Number of classes in the dataset, set to 2.
+
 names: List of class names representing different conditions of the spleen, specifically 'spleen_healthy', 'spleen_low', 'spleen_high'.
 
 
