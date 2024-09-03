@@ -21,6 +21,7 @@ cd Abdominal-Injury-Detection-AI
 
 ### 3. Create the Environment 
 conda create -n myenv python=3.9
+
 conda activate myenv
 
 
