@@ -16,8 +16,10 @@ cd C:\path\to\your\directory
 
 git clone https://github.com/ml-projects-rana/Abdominal-Injury-Detection-AI.git
 
+### 2. Navigate to the project directory
 cd Abdominal-Injury-Detection-AI
 
+### 3. Install the required dependencies
 pip install -r requirements.txt
 
 
