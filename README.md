@@ -33,6 +33,8 @@ pip install -r requirements.txt
 
 
 ## Pipeline:
+![image](https://github.com/user-attachments/assets/de931b65-0c97-4b41-870d-763a1d46d8eb)
+
 
 ## Configuration:
 
