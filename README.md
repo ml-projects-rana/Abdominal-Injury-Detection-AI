@@ -30,6 +30,10 @@ pip install -r requirements.txt
 
 
 # A. Injury Detection, Organ Localization, and Injury Severity Classification
+
+
+## Pipeline:
+
 ## Configuration:
 
 ### 1. config.yaml
@@ -55,9 +59,12 @@ names: List of class names representing different conditions of organs, such as 
 ### 3. model.yaml
 Includes paths for saving results, loading the model and dataset configurations, and setting thresholds for confidence and IoU during detection. It also specifies the model architecture, input size, batch size, and number of training epochs to ensure a consistent and efficient workflow for object detection tasks.
 
+
+
 ## B. Validation of Annotations Against Ground Truth
 
 ### B.1. Ground Truth Masks predicted using Total Segmentor Model 
+### Configuration:
 ### 1. bowel_data.yaml
 train: Path to the directory containing bowel training images.
 
