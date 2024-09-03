@@ -33,7 +33,8 @@ pip install -r requirements.txt
 
 
 ## Pipeline:
-![image](https://github.com/user-attachments/assets/de931b65-0c97-4b41-870d-763a1d46d8eb)
+
+![model_image_3 drawio](https://github.com/user-attachments/assets/ff4b6f35-ae38-4427-8bb5-1e82c7435351)
 
 
 ## Configuration:
