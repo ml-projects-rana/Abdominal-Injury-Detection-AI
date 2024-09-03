@@ -23,7 +23,7 @@ cd Abdominal-Injury-Detection-AI
 conda create -n myenv python=3.9
 conda activate myenv
 
-### 3. Install the required dependencies
+### 4. Install the required dependencies
 pip install -r requirements.txt
 
 
