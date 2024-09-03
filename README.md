@@ -23,8 +23,29 @@ cd Abdominal-Injury-Detection-AI
 conda create -n myenv python=3.9
 conda activate myenv
 
+
 ### 4. Install the required dependencies
 pip install -r requirements.txt
+
+# Configuration:
+### 1. config.yaml
+Configuration to manage paths, directories, and settings related to the training and testing data processing workflows:
+
+train_processing: Manages the paths and parameters for preprocessing the training data, including image transformations, mask generation, and dataset preparation.
+test_processing: Specifies the directories and settings for processing the test data, ensuring consistency with the training data pipeline.
+log: Defines the location for logging all processing activities, helping track the workflow and debug if necessary.
+
+### 2. data.yaml
+Paths and metadata for training and validation datasets, as well as the class structure used in the machine learning model:
+
+train: Path to the directory containing training images.
+val: Path to the directory containing validation images.
+nc: Number of classes in the dataset, set to 11.
+names: List of class names representing different conditions of organs, such as healthy and various injury levels for the bowel, liver, spleen, and kidneys.
+
+### 3. model.yaml
+Includes paths for saving results, loading the model and dataset configurations, and setting thresholds for confidence and IoU during detection. It also specifies the model architecture, input size, batch size, and number of training epochs to ensure a consistent and efficient workflow for object detection tasks.
+
 
 
 
