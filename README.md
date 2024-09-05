@@ -62,7 +62,11 @@ names: List of class names representing different conditions of organs, such as 
 ### 3. model.yaml
 Includes paths for saving results, loading the model and dataset configurations, and setting thresholds for confidence and IoU during detection. It also specifies the model architecture, input size, batch size, and number of training epochs to ensure a consistent and efficient workflow for object detection tasks.
 
-
+## Results
+![10937_12039_0342](https://github.com/user-attachments/assets/73380a0c-6230-472a-a63c-e3e3d21ce580)
+![16327_63843_0192](https://github.com/user-attachments/assets/8dce4525-209f-42f1-8a20-db32ad1632d2)
+![32425_26840_0326](https://github.com/user-attachments/assets/6cdbb9ca-3355-4684-842f-eb768963b28e)
+![37429_15748_0440](https://github.com/user-attachments/assets/12379432-08e5-4530-9722-2c616998f5a5)
 
 ## B. Validation of Annotations Against Ground Truth
 
