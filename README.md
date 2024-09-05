@@ -70,43 +70,24 @@ Includes paths for saving results, loading the model and dataset configurations,
 
 ## B. Validation of Annotations Against Ground Truth
 
-### B.1. Ground Truth Masks predicted using Total Segmentor Model 
+### B.1. Ground Truth Masks generated using Total Segmentor Model 
+### Pipeline:
+![model_image_2 drawio](https://github.com/user-attachments/assets/57278c8b-c25e-47ba-b30e-3622f850f34e)
+
+### B.2. Manually generated Masks predicted using custom Algorithm  
+### Pipeline:
+![model_image_1 drawio (4)](https://github.com/user-attachments/assets/0f1aa0bd-d390-42f5-9ebb-0d22fca4d2be)
+
+
 ### Configuration:
-### 1. bowel_data.yaml
-train: Path to the directory containing bowel training images.
-
-val: Path to the directory containing bowel validation images.
-
-nc: Number of classes in the dataset, set to 2.
-
-names: List of class names representing different conditions of the bowel, specifically 'bowel_healthy' and 'bowel_injury'.
-
-### 2. kidney_data.yaml
-train: Path to the directory containing kidney training images.
-
-val: Path to the directory containing kidney validation images.
-
-nc: Number of classes in the dataset, set to 2.
-
-names: List of class names representing different conditions of the kidney, specifically 'kidney_healthy', 'kidney_low', 'kidney_high'.
-
-### 3. liver_data.yaml
-train: Path to the directory containing liver training images.
-
-val: Path to the directory containing liver validation images.
-
-nc: Number of classes in the dataset, set to 2.
-
-names: List of class names representing different conditions of the liver, specifically 'liver_healthy', 'liver_low', 'liver_high'.
-
-### 4. spleen_data.yaml
-train: Path to the directory containing spleen training images.
-
-val: Path to the directory containing spleen validation images.
-
-nc: Number of classes in the dataset, set to 2.
-
-names: List of class names representing different conditions of the spleen, specifically 'spleen_healthy', 'spleen_low', 'spleen_high'.
+1. bowel_data.yaml
+2. bowel_yolo.yaml
+3. kidney_data.yaml
+4. kidney_yolo.yaml
+5. liver_data.yaml
+6. liver_yolo.yaml
+7. spleen_data.yaml
+8. spleen_yolo.yaml
 
 
 
