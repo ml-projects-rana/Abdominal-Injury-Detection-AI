@@ -8,6 +8,9 @@ The objective of this project is to create an artificial intelligence (AI) syste
 # Dataset:
 https://www.kaggle.com/competitions/rsna-2023-abdominal-trauma-detection/data
 
+# Image Analysis 
+![Image](https://github.com/user-attachments/assets/7608a248-3b7b-45eb-905e-ff95070c018b)
+
 # Installation:
 ### 1. Clone the repository
 #### Using CMD on Windows:
