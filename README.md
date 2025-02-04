@@ -11,6 +11,8 @@ https://www.kaggle.com/competitions/rsna-2023-abdominal-trauma-detection/data
 # Image Analysis 
 ![Image](https://github.com/user-attachments/assets/7608a248-3b7b-45eb-905e-ff95070c018b)
 
+![Image](https://github.com/user-attachments/assets/6778ecb0-cd72-4480-9c4c-7bf038c523ec)
+
 # Installation:
 ### 1. Clone the repository
 #### Using CMD on Windows:
